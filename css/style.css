@@ -101,8 +101,8 @@ header .container {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s ease;
-  text-shadow: 0 0 6px rgba(228, 37, 37, 0.6);
+  /* transition: all 0.3s ease; */
+  /* text-shadow: 0 0 6px rgba(228, 37, 37, 0.6); */
 }
 .cta button:hover {
   background-color: transparent;
