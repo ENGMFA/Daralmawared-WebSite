@@ -101,16 +101,16 @@ header .container {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  /* transition: all 0.3s ease; */
-  text-shadow: 0 0 6px rgba(228, 37, 37, 0.6);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
 }
-/* .cta button:hover {
+.cta button:hover {
   background-color: transparent;
   color: var(--unique-text-color);
   border: 1px solid var(--unique-text-color);
   font-weight: 700;
   font-size: 18px;
-} */
+}
 .social-icons {
   display: flex;
   align-items: center;
