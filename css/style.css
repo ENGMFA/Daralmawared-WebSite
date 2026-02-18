@@ -166,8 +166,8 @@ header .container {
 }
 .social-icons i:hover {
   color: var(--unique-text-color);
-  font-size: 25px;
-  font-weight: 700;
+  scale: 1.5;
+  /* font-weight: 700; */
   background-color: transparent;
 }
 /* End Header Style */
