@@ -179,6 +179,12 @@ header .container {
     width: 100%;
     text-align: center;
   }
+  .navbar ul {
+    display: none;
+  }
+  .social-icons {
+    display: none;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
