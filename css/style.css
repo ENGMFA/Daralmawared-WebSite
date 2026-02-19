@@ -32,22 +32,27 @@ a:focus {
   color: var(--unique-text-color);
 }
 .container {
-  margin: 0 auto;
+  display: flex;
+  margin: 15px;
   padding: 15px;
   color: var(--primary-text-color);
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  gap: 20px;
 }
 /* Start Header Style */
 header {
   background-color: var(--bg-heading-color);
 }
-header .container {
+header .container .navbar {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  top: 0;
-  z-index: 1000;
-  gap: 20px;
+}
+.nav-toggle {
+  color: var(--unique-text-color);
 }
 .navbar ul {
   display: flex;
@@ -171,7 +176,6 @@ header .container {
 .social-icons i:hover {
   color: var(--unique-text-color);
   scale: 1.5;
-  /* font-weight: 700; */
   background-color: transparent;
 }
 /* End Header Style */
@@ -207,6 +211,12 @@ header .container {
   .container {
     width: 750px;
     text-align: justify;
+  }
+}
+@media (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+    background-color: red;
   }
 }
 
